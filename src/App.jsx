@@ -17,7 +17,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/navbar" element={<Navbar />} />
+          
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       </ThemeProvider>
