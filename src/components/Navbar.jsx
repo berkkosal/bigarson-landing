@@ -2,10 +2,13 @@ import React from 'react'
 
 const Navbar = () => {
 
-    
+
 
     return (
-        <div>Navbar</div>
+        <>
+            <img src='bigarson-logo.png' style={{ width: '100px', height: 'auto' }} />
+            <div>Navbar</div>
+        </>
     )
 }
 
