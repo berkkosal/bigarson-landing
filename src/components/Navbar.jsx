@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import React from 'react'
 
 const Navbar = () => {
@@ -8,6 +9,12 @@ const Navbar = () => {
         <>
             <img src='bigarson-logo.png' style={{ width: '100px', height: 'auto' }} />
             <div>Navbar</div>
+
+            <Button>Özellikler</Button>
+            <Button>Örnekler</Button>
+            <Button>Ücretlendirme</Button>
+
+
         </>
     )
 }
