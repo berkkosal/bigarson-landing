@@ -1,5 +1,4 @@
 import { Box, Button } from '@mui/material';
-import { lightGreen } from '@mui/material/colors';
 import React from 'react'
 
 const Navbar = () => {
@@ -9,7 +8,6 @@ const Navbar = () => {
     return (
         <Box sx={{backgroundColor:'lightGreen'}}>
             <img src='bigarson-logo.png' style={{ width: '10rem', height: 'auto' }} />
-            <div>Navbar</div>
             <Button>Özellikler</Button>
             <Button>Örnekler</Button>
             <Button>Ücretlendirme</Button>
