@@ -5,7 +5,7 @@ import Feed from '../components/Feed'
 
 const Home = () => {
     return (
-        <Box bgcolor={'lightcoral'}>
+        <Box bgcolor='lightcoral'>
             <Stack direction="row" spacing={2} justifyContent="center">
                 <Sidebar />
                 <Feed/>
@@ -14,4 +14,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
