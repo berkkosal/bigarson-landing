@@ -1,8 +1,13 @@
+import { Box } from '@mui/system'
 import React from 'react'
 
-const ContentCard = () => {
+const ContentCard = (content) => {
   return (
-    <div>ContentCard</div>
+    <Box>
+      <h2>{content.title}</h2>
+      <p>{content.subtitle}</p>
+      <img />
+    </Box>
   )
 }
 
