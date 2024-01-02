@@ -8,18 +8,17 @@ import { feedContent } from '../utils/Content'
 
 const Feed = () => {
 
-  const {section1,section2,section3,section4} = feedContent;
-  
+  const { section1, section2, section3, section4 } = feedContent;
+
 
   return (
     <Box flex={5} bgcolor="pink" >
-      <ContentCard />
-      <ContentCard />
-      <ContentCard />
-      <ContentCard />
-      <ContentCard />
-      <ContentCard />
-      {feedContent.section1.title}
+
+      <ContentCard content={feedContent.section1} color='blue' />
+      <ContentCard content={feedContent.section2} color='red' />
+
+
+
     </Box>
   )
 }
