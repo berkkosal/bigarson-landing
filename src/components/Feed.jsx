@@ -12,12 +12,12 @@ const Feed = () => {
 
 
   return (
-    <Box flex={5} bgcolor="pink" >
+    <Box flex={5}  >
 
-      <ContentCard content={feedContent.section1} color='blue' />
-      <ContentCard content={feedContent.section2} color='red' />
-
-
+      <ContentCard content={feedContent.section1} color='#F0F0F0' />
+      <ContentCard content={feedContent.section2} color='#FFFFFF' />
+      <ContentCard content={feedContent.section2} color='#F0F0F0' />
+      <ContentCard content={feedContent.section2} color='#FFFFFF' />
 
     </Box>
   )

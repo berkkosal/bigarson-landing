@@ -4,7 +4,7 @@ import Feed from '../components/Feed'
 
 const Home = () => {
     return (
-        <Box bgcolor='lightcoral'>
+        <Box>
             <Stack direction="row" spacing={2} justifyContent="center">
                 <Feed/>
             </Stack>
