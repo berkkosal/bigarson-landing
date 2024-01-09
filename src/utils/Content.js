@@ -1,3 +1,5 @@
+import newProduct from '../images/NewProduct.png'
+
 export const feedContent = {
 
     section1: {
@@ -10,7 +12,7 @@ export const feedContent = {
             'Basım maliyetlerinden kaçının',
             'Online menü deneyimini yaşayın'
         ],
-        imageUrl: ''
+        image: newProduct
     },
 
     section2: {

@@ -16,8 +16,8 @@ const Feed = () => {
 
       <ContentCard content={feedContent.section1} color='#F0F0F0' />
       <ContentCard content={feedContent.section2} color='#FFFFFF' />
-      <ContentCard content={feedContent.section2} color='#F0F0F0' />
-      <ContentCard content={feedContent.section2} color='#FFFFFF' />
+      <ContentCard content={feedContent.section3} color='#F0F0F0' />
+      <ContentCard content={feedContent.section4} color='#FFFFFF' />
 
     </Box>
   )
