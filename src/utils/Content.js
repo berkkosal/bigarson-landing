@@ -12,7 +12,23 @@ export const feedContent = {
             'Basım maliyetlerinden kaçının',
             'Online menü deneyimini yaşayın'
         ],
-        image: newProduct
+        image: newProduct,
+        slides: [
+            {
+                "src": "https://picsum.photos/seed/img1/600/400",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "https://picsum.photos/seed/img2/600/400",
+                "alt": "Image 2 for carousel"
+
+            }, {
+                "src": "https://picsum.photos/seed/img3/600/400",
+                "alt": "Image 3 for carousel"
+
+            },
+        ]
+
     },
 
     section2: {
