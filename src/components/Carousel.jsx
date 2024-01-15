@@ -28,7 +28,7 @@ export const Carousel = ({ data }) => {
 
     return (
         <div className='carousel'>
-            <CiCircleChevLeft className='arrow arrow-left' onClick={prevSlide} />
+            
             {data.map((item, idx) => {
                 return <img
                     src={item.src}
@@ -36,6 +36,7 @@ export const Carousel = ({ data }) => {
                     key={idx}
                     className={slide === idx ? "slide" : "slide slide-hidden"} />
             })}
+            <CiCircleChevLeft className='arrow arrow-left' onClick={prevSlide} />
             <CiCircleChevRight className='arrow arrow-right' onClick={nextSlide} />
             <span className='indicators'>
                 {data.map((_, idx) => {
