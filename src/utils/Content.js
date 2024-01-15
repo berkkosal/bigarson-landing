@@ -1,3 +1,5 @@
+import NoPdfMenu from '../images/pdf-menu-eng.png'
+
 export const feedContent = {
 
     section1: {
@@ -30,7 +32,7 @@ export const feedContent = {
 
     section2: {
         title: 'Müşteriler mobil cihazlarda PDF menülerden hoşlanmazlar',
-        imageUrl: ''
+        NoPdfMenu,
     },
 
     section3: {

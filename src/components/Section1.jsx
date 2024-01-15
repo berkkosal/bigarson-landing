@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from './Carousel'
 import { feedContent } from '../utils/Content/'
-import { Box, Container, Stack } from '@mui/material'
+import { Box,Stack } from '@mui/material'
 
 
 export const Section1 = () => {
