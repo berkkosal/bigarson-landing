@@ -4,10 +4,8 @@ import Feed from '../components/Feed'
 
 const Home = () => {
     return (
-        <Box    >
-            <Stack direction="row" spacing={2} justifyContent="center">
-                <Feed/>
-            </Stack>
+        <Box >
+            <Feed />
         </Box>
     )
 }

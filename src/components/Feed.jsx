@@ -1,4 +1,4 @@
-import { Box, Stack } from '@mui/material';
+import { Box, Container, Stack } from '@mui/material';
 import './Feed.css';
 import { Section1 } from './Section1';
 import { Section2 } from './Section2';
@@ -12,16 +12,14 @@ const Feed = () => {
 
 
   return (
-    <>
-      <Box>
-        <Stack direction='column'>
-          <Section1 />
-          <Section2 />
-          <Section3 />
-          <Section4 />
-        </Stack>
+      <Box >
+        <Container maxWidth="lg" >
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <Section4 />
+        </Container>
       </Box>
-    </>
   )
 }
 
