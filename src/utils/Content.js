@@ -3,10 +3,10 @@ export const feedContent = {
     section1: {
         title: 'QR Menünüzü oluşturun ve her yerde kullanın.',
         subtitle: 'Restoranınız, websiteniz, Google Maps, Instagram ve Facebook için tek menü.',
-        listTitle: 'Dijital menüyü kullanın',
+        listTitle: 'Dijital menüyü kullanarak',
         listContent: [
             'Google Maps, Instagram ve Facebooktan müşterileri kendinize çekin.',
-            'Müşterilerinizin restoranda geçirdiği süreyi uzatın',
+            'Müşterilerinizin restoranınızda geçirdiği süreyi uzatın',
             'Basım maliyetlerinden kaçının',
             'Online menü deneyimini yaşayın'
         ],
