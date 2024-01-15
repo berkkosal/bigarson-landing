@@ -1,5 +1,7 @@
 import NoPdfMenu from '../images/pdf-menu-eng.png'
-
+import icon1 from '../images/consent-no-stars-cir.png'
+import icon2 from '../images/typing-circle-black.png'
+import icon3 from '../images/QR_code_circle-black.png'
 export const feedContent = {
 
     section1: {
@@ -36,7 +38,10 @@ export const feedContent = {
     },
 
     section3: {
-        title: 'Nasıl Çalışır',
+        title: 'Nasıl Çalışıyor?',
+        icon1,
+        icon2,
+        icon3,
         iconText1: 'Kayıt ol',
         iconText2: 'Menü içeriklerinizi oluşturun',
         iconText3: 'QR Kodunuzu bastırın',
