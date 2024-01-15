@@ -15,15 +15,15 @@ export const feedContent = {
         image: newProduct,
         slides: [
             {
-                "src": "https://picsum.photos/seed/img1/600/400",
+                "src": "https://i.imgur.com/bzygz55.png",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "https://picsum.photos/seed/img2/600/400",
+                "src": "https://i.imgur.com/VKTgth7.png",
                 "alt": "Image 2 for carousel"
 
             }, {
-                "src": "https://picsum.photos/seed/img3/600/400",
+                "src": "https://i.imgur.com/0ciy8uT.png",
                 "alt": "Image 3 for carousel"
 
             },

@@ -1,13 +1,3 @@
-
-.section1-wrapper{
-    position: relative;
-}
-
-.section1-carousel-wrapper {
-  position: absolute;
-  background-color: red;
-}
-
-.section2-wrapper{
-  position: relative;
+* {
+  
 }
