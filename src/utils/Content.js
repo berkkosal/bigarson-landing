@@ -50,14 +50,13 @@ export const feedContent = {
     },
 
     section4: {
-        title: 'Özellikler',
-        listTitle: 'Fotoğraflarla Menü',
+        title: 'Fotoğraflarla Menü',
         listContent: [
             'Müşteriler fotoğraflara bayılır',
             'Mobil cihazlarda harika görünür',
             'Instagram benzeri kaydırma sağlar'
         ],
-        imageUrl: ''
+        imageUrl: "https://i.imgur.com/v3Am3E2.png"
     }
 
 }

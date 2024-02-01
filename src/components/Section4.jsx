@@ -1,7 +1,17 @@
 import React from 'react'
+import ContentCard from './ContentCard'
+import { feedContent } from '../utils/Content/'
+import { Box, Stack } from '@mui/material'
 
 export const Section4 = () => {
+
+  const { section4 } = feedContent
+
   return (
-    <div>Section4</div>
+    <Box >
+      <Stack>
+        <ContentCard data={section4} />
+      </Stack>
+    </Box>
   )
 }
