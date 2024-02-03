@@ -52,9 +52,9 @@ export const feedContent = {
     section4: {
         title: 'Fotoğraflarla Menü',
         listContent: [
-            'Müşteriler fotoğraflara bayılır',
-            'Mobil cihazlarda harika görünür',
-            'Instagram benzeri kaydırma sağlar'
+            'Müşteriler fotoğraflara bayılır.',
+            'Mobil cihazlarda harika görünür.',
+            'Instagram benzeri kaydırma sağlar.'
         ],
         imageUrl: "https://i.imgur.com/v3Am3E2.png"
     },
@@ -62,8 +62,8 @@ export const feedContent = {
     section5:{
         title: 'Ortalama Harcamayı Arttırın',
         listContent: [
-            'Özel teklifleri tanıtın',
-            'Popüler ürünleri vurgulayın',
+            'Özel teklifleri tanıtın.',
+            'Popüler ürünleri vurgulayın.',
         ],
 
         imageUrl: "https://i.imgur.com/JOSsdjT.png"
@@ -74,7 +74,7 @@ export const feedContent = {
         title: 'Olumlu Değerlendirmeleri Teşvik Edin'
         ,
         listContent:[
-            'Google Haritalar ve Tripadvisor\'da olumlu yorumlar alın'
+            'Google Haritalar ve Tripadvisor\'da olumlu yorumlar alın.'
         ],
         imageUrl: "https://i.imgur.com/XOXQoV2.png"
     },
@@ -82,7 +82,7 @@ export const feedContent = {
     section7:{
         title: 'Personelin Yükünü Azaltın',
         listContent:[
-            'Müşterilerinize güvenle sipariş vermeleri için alerjenler ve seçenekler hakkında bilgi verin'
+            'Müşterilerinize güvenle sipariş vermeleri için alerjenler ve seçenekler hakkında bilgi verin.'
         ],
         imageUrl: "https://i.imgur.com/Bq2VcMT.png"
     },
@@ -90,7 +90,7 @@ export const feedContent = {
     section8:{
         title: 'Uygulamaya Gerek Yok',
         listContent:[
-            'Müşteriler bunu herhangi bir Apple veya Android cihazında Safari, Chrome, Firefox dahil tüm standart tarayıcılarla kullanır'
+            'Müşteriler bunu herhangi bir Apple veya Android cihazında Safari, Chrome, Firefox dahil tüm standart tarayıcılarla kullanır.'
         ],
         imageUrl: "https://i.imgur.com/jfviIWB.png"
     },
