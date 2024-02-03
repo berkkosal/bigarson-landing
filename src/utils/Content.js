@@ -57,6 +57,44 @@ export const feedContent = {
             'Instagram benzeri kaydırma sağlar'
         ],
         imageUrl: "https://i.imgur.com/v3Am3E2.png"
-    }
+    },
+
+    section5:{
+        title: 'Ortalama Harcamayı Arttırın',
+        listContent: [
+            'Özel teklifleri tanıtın',
+            'Popüler ürünleri vurgulayın',
+        ],
+
+        imageUrl: "https://i.imgur.com/JOSsdjT.png"
+        
+    },
+
+    section6:{
+        title: 'Olumlu Değerlendirmeleri Teşvik Edin'
+        ,
+        listContent:[
+            'Google Haritalar ve Tripadvisor\'da olumlu yorumlar alın'
+        ],
+        imageUrl: "https://i.imgur.com/XOXQoV2.png"
+    },
+
+    section7:{
+        title: 'Personelin Yükünü Azaltın',
+        listContent:[
+            'Müşterilerinize güvenle sipariş vermeleri için alerjenler ve seçenekler hakkında bilgi verin'
+        ],
+        imageUrl: "https://i.imgur.com/Bq2VcMT.png"
+    },
+
+    section8:{
+        title: 'Uygulamaya Gerek Yok',
+        listContent:[
+            'Müşteriler bunu herhangi bir Apple veya Android cihazında Safari, Chrome, Firefox dahil tüm standart tarayıcılarla kullanır'
+        ],
+        imageUrl: "https://i.imgur.com/jfviIWB.png"
+    },
+
+    
 
 }
