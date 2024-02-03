@@ -9,7 +9,7 @@ export default function Section6() {
   return (
     <Box>
       <Stack>
-        <ContentCard data={section6} />
+        <ContentCard data={section6} direction='right' />
       </Stack>
     </Box>
   )

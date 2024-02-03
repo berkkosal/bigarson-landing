@@ -10,7 +10,7 @@ export const Section4 = () => {
   return (
     <Box >
       <Stack>
-        <ContentCard data={section4} />
+        <ContentCard data={section4} direction='right' />
       </Stack>
     </Box>
   )

@@ -21,7 +21,7 @@ const Feed = () => {
         <Section1 />
         <Section2 />
         <Section3 />
-        <h1>Özellikler</h1>
+        <h1 style={{textAlign:'center'}}>Özellikler</h1>
         <Section4 />
         <Section5 />
         <Section6 />
