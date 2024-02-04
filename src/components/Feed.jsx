@@ -17,7 +17,7 @@ const Feed = () => {
 
   return (
     <Box >
-      <Container maxWidth="lg" >
+      <Container maxWidth="lg" sx={{paddingTop:'100px'}}>
         <Section1 />
         <Section2 />
         <Section3 />
