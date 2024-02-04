@@ -3,7 +3,7 @@ import React from 'react'
 import './ContentCard.css';
 
 
-export default function ContentCard({ data, direction }) {
+export default function ContentCard({ data, direction,pointed }) {
     return (
         <Box display="flex" justifyContent="center">
             <Stack
@@ -13,7 +13,7 @@ export default function ContentCard({ data, direction }) {
             >
                 <Stack sx={{ flex: 1 }}>
                     <h1 className='content-title'>{data.title}</h1>
-                    <ul className='content-list'>
+                    <ul style={{ listStyleType: 'none'}} className='content-list' >
                         {data.listContent.map((item, index) => (
                             <li className='content-list-item' key={index}>{item}</li>
                         ))}

@@ -7,7 +7,8 @@ const theme = createTheme({
    typography:{
     fontFamily:['Poppins','sans-serif'],
     button:{
-        textTransform:'none'
+        textTransform:'none',
+        fontFamily:['Poppins']
     }
    },
 
