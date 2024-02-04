@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
 .MuiBox-root {
     padding: 15px;
 }
@@ -9,7 +14,8 @@
 
 
 .section3-icon{
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
     
 }
+

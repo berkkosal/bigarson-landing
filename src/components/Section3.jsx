@@ -16,26 +16,33 @@ export const Section3 = () => {
         </Stack>
 
         <Stack direction='row' spacing={8} justifyContent='center' alignItems='center'>
-          <Stack direction='column'>
-            <img className='section3-icon' src={section3.icon1} />
-          </Stack>
+          <div>
+            <Stack direction='column' alignItems='center'>
+              <img className='section3-icon' src={section3.icon1} />
+              <span>Kayıt olun</span>
+            </Stack>
+          </div>
           <FaArrowRight />
-
-          <Stack direction='column'>
-            <img className='section3-icon' src={section3.icon2} />
-          </Stack>
-
+          <div>
+            <Stack direction='column' alignItems='center'>
+              <img className='section3-icon' src={section3.icon2} />
+              <span>Menünüzün içeriğini girin</span>
+            </Stack>
+          </div>
           <FaArrowRight />
-
-          <Stack direction='column'>
-            <img className='section3-icon' src={section3.icon3} />
-          </Stack>
+          <div>
+            <Stack direction='column' alignItems='center'>
+              <img className='section3-icon' src={section3.icon3} />
+              <span>QR Kodu bastırın</span>
+            </Stack>
+          </div>
         </Stack>
 
-        <Stack direction='row' justifyContent='center' spacing={4}>
-          <Button variant='contained'>{section3.buttonText1}</Button>
-          <Button variant='outlined'>{section3.buttonText2}</Button>
+        <Stack sx={{ margin: '3%' }} direction='row' justifyContent='center' spacing={4}>
+          <Button sx={{ width: '150px' }} variant='contained'>{section3.buttonText1}</Button>
+          <Button sx={{ width: '150px' }} variant='outlined'>{section3.buttonText2}</Button>
         </Stack>
+
 
       </Stack>
 
