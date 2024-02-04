@@ -9,7 +9,7 @@ const Footer = () => {
                 <Stack sx={{ flex: 1, paddingLeft: '200px'  }} >
                     <span className='footer-title'><Typography color='white'>Bigarson</Typography></span>
                     <span className='footer-info-1'><Typography color='white'>info@bigarson.com</Typography></span>
-                    <span className='footer-info-2'><Typography color='white'>h1</Typography></span>
+                    <span className='footer-info-2'><Typography color='white'>Adres</Typography></span>
                 </Stack>
                 <Stack sx={{ flex: 1 }}>
                     <ul style={{ listStyleType: 'none', paddingLeft: '200px' }}>
